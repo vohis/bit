@@ -1,24 +1,29 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Кабинет покупателя");
-?>Text here....<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
-
-
+?><br>
+ <br>
+ <?$APPLICATION->IncludeComponent(
+	"bitrix:main.profile",
+	"",
+	Array(
+		"CHECK_RIGHTS" => "N",
+		"SEND_INFO" => "N",
+		"SET_TITLE" => "Y",
+		"USER_PROPERTY" => array(),
+		"USER_PROPERTY_NAME" => ""
+	)
+);?><br>
 <?$APPLICATION->IncludeComponent(
-    "bitrix:menu",
-    ".default",
-    array(
-        "ROOT_MENU_TYPE" => "top",  // Тип верхнего меню
-        "MAX_LEVEL" => "2",         // Максимальный уровень вложенности
-        "CHILD_MENU_TYPE" => "left", // Тип подменю
-        "USE_EXT" => "Y",           // Использовать дополнительные файлы меню
-        "MENU_CACHE_TYPE" => "A",   // Тип кеширования
-        "MENU_CACHE_TIME" => "3600",// Время кеширования
-        "MENU_CACHE_USE_GROUPS" => "Y", // Учитывать права доступа
-        "MENU_CACHE_GET_VARS" => "", // Дополнительные переменные
-    ),
-    false,
-    array(
-        "ACTIVE_COMPONENT" => "Y"
-    )
+	"bitrix:subscribe.form", 
+	".default", 
+	array(
+		"CACHE_TIME" => "3600",
+		"CACHE_TYPE" => "A",
+		"PAGE" => "#SITE_DIR#about/subscr_edit.php",
+		"SHOW_HIDDEN" => "N",
+		"USE_PERSONALIZATION" => "Y",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
 );?>
