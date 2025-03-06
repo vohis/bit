@@ -1,34 +1,32 @@
-
 <?
 $aMenuLinks = Array(
 	Array(
 		"Вакансии", 
-		"/o-servise/vakansii/index.php", 
+		"/o-servise/vakansii/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Контакты", 
-		"/o-servise/kontakty/index.php", 
+		"/o-servise/kontakty/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Новости", 
-		"/o-servise/novosti/index.php", 
+		"/o-servise/novosti/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Агенты", 
-		"/o-servise/agenty/index.php", 
+		"/o-servise/agenty/", 
 		Array(), 
 		Array(), 
 		"" 
 	)
-
 );
 ?>

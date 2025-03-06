@@ -6,9 +6,9 @@ $APPLICATION->SetTitle("Мебельная компания");
 </p>
 <p>
 	 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
-	"",
-	Array(
+	"bitrix:news.list", 
+	".default", 
+	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_SECTIONS_CHAIN" => "Y",
 		"AJAX_MODE" => "N",
@@ -28,7 +28,10 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"DISPLAY_PICTURE" => "Y",
 		"DISPLAY_PREVIEW_TEXT" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
-		"FIELD_CODE" => array("",""),
+		"FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"IBLOCK_ID" => $_REQUEST["ID"],
@@ -47,7 +50,10 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"PARENT_SECTION" => "",
 		"PARENT_SECTION_CODE" => "",
 		"PREVIEW_TRUNCATE_LEN" => "",
-		"PROPERTY_CODE" => array("",""),
+		"PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"SET_BROWSER_TITLE" => "Y",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_META_DESCRIPTION" => "Y",
@@ -59,8 +65,10 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC",
-		"STRICT_SECTION_CHECK" => "N"
-	)
+		"STRICT_SECTION_CHECK" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
 );?>
 </p>
 <p>
@@ -72,9 +80,9 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "300",
 		"CACHE_TYPE" => "A",
-		"DETAIL_URL" => "#CODE#",
+		"DETAIL_URL" => "",
 		"FIELD_CODE" => array(
-			0 => "",
+			0 => "IBLOCK_CODE",
 			1 => "",
 		),
 		"IBLOCKS" => array(
