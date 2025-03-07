@@ -21,7 +21,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"CACHE_TIME" => "36000000",
 		"CACHE_TYPE" => "A",
 		"CHECK_DATES" => "Y",
-		"DETAIL_URL" => "",
+		"DETAIL_URL" => "https://iarbalaev.study.mcart.ru/o-servise/novosti/",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"DISPLAY_DATE" => "Y",
 		"DISPLAY_NAME" => "Y",
@@ -80,7 +80,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "300",
 		"CACHE_TYPE" => "A",
-		"DETAIL_URL" => "",
+		"DETAIL_URL" => "https://iarbalaev.study.mcart.ru/o-servise/novosti/",
 		"FIELD_CODE" => array(
 			0 => "IBLOCK_CODE",
 			1 => "",
@@ -88,7 +88,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 		"IBLOCKS" => array(
 		),
 		"IBLOCK_TYPE" => "news",
-		"NEWS_COUNT" => "20",
+		"NEWS_COUNT" => "9",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",

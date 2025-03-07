@@ -21,13 +21,13 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
-		"Кабинет продавца", 
-		"/kabinet-prodavtsa/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
+	// Array(
+	// 	"Кабинет продавца", 
+	// 	"/kabinet-prodavtsa/", 
+	// 	Array(), 
+	// 	Array(), 
+	// 	"" 
+	// ),
 	Array(
 		"Кабинет покупателя", 
 		"/kabinet-pokupatelya/", 

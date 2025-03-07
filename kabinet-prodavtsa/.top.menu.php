@@ -28,12 +28,12 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	Array(
-		"Кабинет покупателя", 
-		"/kabinet-pokupatelya/", 
-		Array(), 
-		Array(), 
-		"" 
-	)
+	// Array(
+	// 	"Кабинет покупателя", 
+	// 	"/kabinet-pokupatelya/", 
+	// 	Array(), 
+	// 	Array(), 
+	// 	"" 
+	// )
 );
 ?>

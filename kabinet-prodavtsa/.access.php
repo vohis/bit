@@ -1,0 +1,12 @@
+<?
+$PERM["moi-obyavleniya"]["2"]="D";
+$PERM["moi-obyavleniya"]["3"]="D";
+$PERM["moi-obyavleniya"]["4"]="D";
+$PERM["moi-obyavleniya"]["8"]="W";
+$PERM["moi-obyavleniya"]["6"]="D";
+$PERM["moi-obyavleniya"]["7"]="R";
+$PERM["moi-obyavleniya"]["5"]="D";
+$PERM["moi-obyavleniya"]["*"]="D";
+$PERM["index.php"]["*"]="D";
+$PERM["index.php"]["G7"]="R";
+?>
